@@ -1,0 +1,27 @@
+{
+    "name": "pro/pro",
+    "description": "",
+    "keywords": ["pro", "php"],
+
+    "require": {
+        "php": ">=7.2.0"
+    },
+
+    "autoload": {
+        "classmap": [
+            "app/controllers",
+            "app/daos",
+            "app/models",
+            "Core"
+        ],
+        "files": [
+            "app/functions/extend.php",
+            "Core/helper/common.php",
+            "Core/helper/array.php"
+        ]
+    },
+
+    "config": {
+        "preferred-install": "dist"
+    }
+}
